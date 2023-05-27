@@ -8,6 +8,13 @@ Some of the CSS on this page is based on a design by Colorlib, licensed under th
 
 Link to the original project: [Colorlib RegForm 13](https://colorlib.com/wp/template/colorlib-regform-13/).
 
+## Versions and working time
+
+Node Version - v16.17.1
+npm version - 9.1.3
+
+Working Time - 4h
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -19,3 +26,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
