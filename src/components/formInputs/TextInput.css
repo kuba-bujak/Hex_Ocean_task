@@ -1,0 +1,119 @@
+input, select, textarea {
+	outline: none;
+	appearance: unset !important;
+	-moz-appearance: unset !important;
+	-webkit-appearance: unset !important;
+	-o-appearance: unset !important;
+	-ms-appearance: unset !important; }
+
+input:focus, select:focus, textarea:focus {
+	outline: none;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	-ms-box-shadow: none !important; }
+
+.form-group {
+	margin-bottom: 20px;
+	position: relative; 
+}
+ 
+.form-input {
+	padding-top: 21px; 
+}
+
+.form-label {
+	position: absolute;
+	transition: 0.25s ease;
+	-moz-transition: 0.25s ease;
+	-webkit-transition: 0.25s ease;
+	-o-transition: 0.25s ease;
+	-ms-transition: 0.25s ease;
+	color: #bebebe;
+	left: 0;
+	top: 23px; 
+}
+
+input {
+	transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	-ms-transition: 0.3s ease;
+	padding-top: 10px;
+	-webkit-appearance: none; 
+}
+
+input:focus + .form-label, input:valid + .form-label {
+	top: 1px;
+	font-size: 11px;
+	color: #edb77d; 
+}
+
+input, select {
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	border: none;
+	color: #fff;
+	background: transparent;
+	outline: none;
+	border-bottom: 1px solid #999;
+	padding: 4px 0; 
+	cursor: pointer;
+}
+
+input:focus, select:focus {
+	border-bottom: 1px solid #edb77d; 
+}
+ 
+input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0 30px transparent inset; 
+}
+
+input::-webkit-input-placeholder {
+	color: #bebebe; 
+}
+input::-moz-placeholder {
+	color: #bebebe; 
+}
+input:-ms-input-placeholder {
+	color: #bebebe; 
+}
+input:-moz-placeholder {
+	color: #bebebe; 
+}
+
+.select-list {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+ 
+ .submit {
+	width: auto;
+	background: #edb77d;
+	color: #fff;
+	padding: 15px 43px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	margin-top: 30px;
+	cursor: pointer; }
+	.submit:hover {
+	  background: #e79e50; }
+ 
+ .error-input-message {
+	text-align: right;
+	display: block;
+	margin-top: 0.4rem;
+	width: 100%;
+	color: #ff0000;
+ }
+
+ 

@@ -1,0 +1,60 @@
+.dishForm-container {
+	background: #111;
+	height: 50vh;
+	width: 1150px;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	border-radius: 10px;
+	margin: auto;
+	height: 600px;
+	position: relative;
+}
+
+.dishForm-image {
+	background: url('https://images.unsplash.com/photo-1615500025837-cf3a8716c83d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80') no-repeat center/cover;
+	border-radius: 10px 0 0 10px;
+	border-right: 1px solid #c9b7a8;
+}
+
+.dishForm-form {
+	display: flex;
+	flex-direction: column;
+	padding: 15% 15% 10% 15%;
+}
+
+.form-header {
+	line-height: 1.8;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+	font-size: 21px;
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+input[type="text"] {
+	width: 100%;
+}
+
+.message-container {
+	position: absolute;
+	top: -5rem;
+	right: 0;
+	width: 100%;
+	padding: 0.6rem 0.4rem;
+	text-align: center;
+	border-radius: 6px;
+}
+
+.correct-message {
+	background-color: rgb(32, 150, 9);
+}
+
+.error-message {
+	background-color: rgb(202, 21, 21);
+}
+
+.message-text {
+	color: #e9e8e8;
+}
