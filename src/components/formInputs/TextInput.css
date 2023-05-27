@@ -1,3 +1,15 @@
+.error-input-message {
+	text-align: right;
+	display: block;
+	margin-top: 0.4rem;
+	width: 100%;
+	color: #ff0000;
+ }
+
+ /* Some of the CSS on this page is based on a design by Colorlib, licensed under the Creative Commons Attribution 3.0 (CC BY 3.0). */
+
+/* Link to the original project: [Colorlib RegForm 13](https://colorlib.com/wp/template/colorlib-regform-13/). */
+
 input, select, textarea {
 	outline: none;
 	appearance: unset !important;
@@ -108,12 +120,6 @@ input:-moz-placeholder {
 	.submit:hover {
 	  background: #e79e50; }
  
- .error-input-message {
-	text-align: right;
-	display: block;
-	margin-top: 0.4rem;
-	width: 100%;
-	color: #ff0000;
- }
+
 
  
