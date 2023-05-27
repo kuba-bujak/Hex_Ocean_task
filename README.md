@@ -21,7 +21,9 @@ Link to the live preview - https://hex-ocean-task-fawn.vercel.app
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install` - install all dependecies
+
+### `npm start` - run app
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
